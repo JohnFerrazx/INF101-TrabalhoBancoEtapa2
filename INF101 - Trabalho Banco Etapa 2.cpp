@@ -19,7 +19,6 @@ int main()
     const int MAX_CONTAS = 100;
     const int MAX_MOVIMENTACOES = 500;
 
-    // Arrays para armazenar os dados das contas
     int numeroConta[MAX_CONTAS];
     string nomeCliente[MAX_CONTAS];
     string cpf[MAX_CONTAS];
@@ -28,7 +27,7 @@ int main()
 
     int quantidadeContas = 0;
 
-    // Arrays para armazenar o historico de movimentacoes
+    
     int contaMovimentacao[MAX_MOVIMENTACOES];
     char tipoMovimentacao[MAX_MOVIMENTACOES];
     double valorMovimentacao[MAX_MOVIMENTACOES];
@@ -63,7 +62,7 @@ int main()
 
         switch (numero) {
 
-            // 1 - CADASTRAR CONTA
+            
             case 1: {
 
                 cout << "\n--- CADASTRO DE CONTA ---\n";
@@ -138,7 +137,7 @@ int main()
                 break;
             }
 
-            // 2 - LISTAR CONTAS
+           
             case 2: {
 
                 cout << "\n--- LISTA DE CONTAS ---\n";
@@ -169,7 +168,7 @@ int main()
                 break;
             }
 
-            // 3 - CONSULTAR CONTA
+            
             case 3: {
 
                 cout << "\n--- CONSULTA DE CONTA ---\n";
@@ -207,7 +206,7 @@ int main()
                 break;
             }
 
-            // 4 - REALIZAR DEPOSITO
+            
             case 4: {
 
                 cout << "\n--- REALIZAR DEPOSITO ---\n";
@@ -258,7 +257,7 @@ int main()
                 break;
             }
 
-            // 5 - REALIZAR SAQUE
+            
             case 5: {
 
                 cout << "\n--- REALIZAR SAQUE ---\n";
@@ -316,7 +315,7 @@ int main()
                 break;
             }
 
-            // 6 - REALIZAR TRANSFERENCIA
+            
             case 6: {
 
                 cout << "\n--- REALIZAR TRANSFERENCIA ---\n";
@@ -399,7 +398,7 @@ int main()
                 break;
             }
 
-            // 7 - EXIBIR EXTRATO
+            
             case 7: {
 
                 cout << "\n--- EXTRATO DA CONTA ---\n";
@@ -457,7 +456,7 @@ int main()
                 break;
             }
 
-            // 8 - SAIR
+           
             case 8:
 
                 cout << "\nSistema encerrado. Obrigado por utilizar o ADS BANK!\n";
